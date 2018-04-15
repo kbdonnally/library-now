@@ -1,0 +1,24 @@
+.home-landing-grid {
+	position: relative;
+	padding: 0 4.167%;
+	background-color: #444;
+	@media screen and (min-width: 600px) {
+	//	padding: 0 8.33%;
+	}
+}
+
+.home-landing__big-title {
+	position: relative;
+	display: grid;
+	div {
+		font-weight: 900;
+		font-size: 3rem;
+		text-transform: uppercase;
+		@media screen and (min-width: 600px) {
+			font-size: 4rem;
+		}
+		@media screen and (min-width: 768px) {
+			font-size: 5rem;
+		}
+	}
+}
