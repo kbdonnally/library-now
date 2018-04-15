@@ -1,7 +1,10 @@
 .home-landing-grid {
 	position: relative;
+	display: grid;
+	align-items: center; // vertically centers title container
+	min-height: 100vh;
 	padding: 0 4.167%;
-	background-color: #444;
+	background-color: rgba(0,0,0,.9);
 	@media screen and (min-width: 600px) {
 	//	padding: 0 8.33%;
 	}
@@ -10,15 +13,25 @@
 .home-landing__big-title {
 	position: relative;
 	display: grid;
+	justify-content: center;
 	div {
 		font-weight: 900;
 		font-size: 3rem;
 		text-transform: uppercase;
+	//	text-align: center;
+		line-height: 1;
+		color: white;
 		@media screen and (min-width: 600px) {
 			font-size: 4rem;
 		}
 		@media screen and (min-width: 768px) {
 			font-size: 5rem;
+		}
+		@media screen and (min-width: 1024px) {
+			font-size: 6rem;
+		}
+		@media screen and (min-width: 1200px) {
+			font-size: 7rem;
 		}
 	}
 }
